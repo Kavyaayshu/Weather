@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/PKAVYAP/AndroidStudioProjects/Weather/app/src/main/res/drawable/edit_text_bg.xml" value="1.2214285714285715" />
-        <entry key="..\:/Users/PKAVYAP/AndroidStudioProjects/Weather/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PKAVYAP/AndroidStudioProjects/Weather/app/src/main/res/drawable/grid.xml" value="0.2203125" />
+        <entry key="..\:/Users/PKAVYAP/AndroidStudioProjects/Weather/app/src/main/res/drawable/second_activity.xml" value="0.2203125" />
+        <entry key="..\:/Users/PKAVYAP/AndroidStudioProjects/Weather/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/PKAVYAP/AndroidStudioProjects/Weather/app/src/main/res/layout/grid_layout.xml" value="0.25" />
+        <entry key="..\:/Users/PKAVYAP/AndroidStudioProjects/Weather/app/src/main/res/layout/second_activity.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

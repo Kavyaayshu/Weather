@@ -29,6 +29,10 @@ public class WeatherResponse {
     @SerializedName("cod")
     public float cod;
 
+
+
+
+
     public String getName() {
         return name;
     }
@@ -36,6 +40,61 @@ public class WeatherResponse {
     public void setName(String name) {
         this.name = name;
     }
+
+    public WeatherResponse(Coord coord, Sys sys, ArrayList<Weather> weather, Main main, Wind wind, Rain rain, Clouds clouds, float dt, int id, String name, float cod) {
+        this.coord = coord;
+        this.sys = sys;
+        this.weather = weather;
+        this.main = main;
+        this.wind = wind;
+        this.rain = rain;
+        this.clouds = clouds;
+        this.dt = dt;
+        this.id = id;
+        this.name = name;
+        this.cod = cod;
+    }
+
+    public Coord getCoord() {
+        return coord;
+    }
+
+    public void setCoord(Coord coord) {
+        this.coord = coord;
+    }
+
+    public Sys getSys() {
+        return sys;
+    }
+
+    public void setSys(Sys sys) {
+        this.sys = sys;
+    }
+
+    public ArrayList<Weather> getWeather() {
+        return weather;
+    }
+
+    public void setWeather(ArrayList<Weather> weather) {
+        this.weather = weather;
+    }
+
+    public Main getMain() {
+        return main;
+    }
+
+    public void setMain(Main main) {
+        this.main = main;
+    }
+
+
+
+
+
+
+
+
+
 
 
 //private String name;
@@ -50,6 +109,18 @@ class Weather {
     public String description;
     @SerializedName("icon")
     public String icon;
+
+    public Weather(String main) {
+        this.main = main;
+    }
+
+    public String getMain() {
+        return main;
+    }
+
+    public void setMain(String main) {
+        this.main = main;
+    }
 }
 
 class Clouds {
@@ -81,6 +152,10 @@ class Main {
     @SerializedName("temp_max")
     public float temp_max;
 
+    public Main(float temp) {
+        this.temp = temp;
+    }
+
     public float getTemp() {
         return temp;
     }
@@ -97,6 +172,10 @@ class Sys {
     public long sunrise;
     @SerializedName("sunset")
     public long sunset;
+
+    public Sys(String country) {
+        this.country = country;
+    }
 
     public String getCountry() {
         return country;

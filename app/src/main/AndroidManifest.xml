@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Weather">
         <activity
+            android:name=".SecondActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Details"
+            />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
